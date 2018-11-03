@@ -21,7 +21,7 @@ pip install git+https://github.com/wkentaro/screenshot-manager.git
 Next, you run `crontab -e` to add the periodical job:
 
 ```
-* * * * * /usr/local/bin/screenshot-manager --to-location ~/GoogleDrive/Screenshots
+*/5 * * * * /usr/local/bin/screenshot-manager --to-location ~/GoogleDrive/Screenshots
 ```
 
 That's it!
