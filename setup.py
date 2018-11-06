@@ -18,7 +18,7 @@ def git_hash():
     return hash_
 
 
-version = '0.1.0-0'
+version = '0.2.0-0'
 
 hash_ = git_hash()
 if hash_ is not None:
