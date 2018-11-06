@@ -55,6 +55,7 @@ default_config = {
         'from_location': get_locations('Linux'),
         'from_format': [
             'Screenshot from %Y-%m-%d %H-%M-%S',
+            'Screencast %Y-%m-%d %H:%M:%S',
         ],
         'to_format': '%Y-%m-%d_%H-%M-%S',
     },
