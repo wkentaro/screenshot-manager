@@ -10,7 +10,7 @@ import subprocess
 
 
 def git_hash():
-    cmd = 'git log --format="%h"'
+    cmd = 'git log -1 --format="%h"'
     try:
         hash_ = subprocess.check_output(shlex.split(cmd)).decode().strip()
     except subprocess.CalledProcessError:
