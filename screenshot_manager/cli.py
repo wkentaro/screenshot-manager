@@ -114,6 +114,12 @@ def main():
         default=config.get('to_format'),
     )
     parser.add_argument(
+        '--copy-same',
+        help='Copy even if the file has the same name. NOTE: this may '
+             'cause many copies if you changed the file already uploaded.',
+        action='store_true',
+    )
+    parser.add_argument(
         '-v',
         '--verbose',
         help='Verbose mode',
@@ -164,6 +170,13 @@ def main():
                 )
 
                 if osp.exists(to_filename):
+                    if not args.copy_same:
+                        print(
+                            'Skipping file that has the same name:',
+                            from_filename,
+                        )
+                        continue
+
                     from_stat = os.stat(from_filename)
                     to_stat = os.stat(to_filename)
                     if int(from_stat.st_mtime) == int(to_stat.st_mtime):
