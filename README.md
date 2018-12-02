@@ -2,7 +2,7 @@
 
 Rename and copy screenshot/screencast into a single folder to organize screenshots for different platforms and file types.
 
-![](.readme/example.jpg)
+<img src=".readme/example.jpg" width="80%" />
 
 ## Why?
 
