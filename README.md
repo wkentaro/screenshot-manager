@@ -2,6 +2,8 @@
 
 Rename and copy screenshot/screencast into a single folder to organize screenshots for different platforms and file types.
 
+![](.readme/example.jpg)
+
 ## Why?
 
 I usually take screenshot/screencast just for logging in daily basis. It is quite useful if we put them in a single folder or cloud service (ie. Google Drive)
