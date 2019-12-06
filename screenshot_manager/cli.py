@@ -4,12 +4,10 @@ from __future__ import print_function
 
 import argparse
 import datetime
-import logging
 import os
 import os.path as osp
 import pkg_resources
 import platform
-import pprint
 import re
 import shutil
 import sys
