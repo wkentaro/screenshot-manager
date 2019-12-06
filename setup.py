@@ -9,7 +9,7 @@ import subprocess
 import sys
 
 
-version = '1.0.1'
+version = '1.0.2'
 
 
 # release helper
@@ -19,7 +19,7 @@ if sys.argv[-1] == 'release':
         'git tag v{0}'.format(version),
         'git push origin master --tags',
         'python setup.py sdist',
-        'twine upload dist/screenshot_manager-{0}.tar.gz'.format(version),
+        'twine upload dist/screenshot-manager-{0}.tar.gz'.format(version),
     ]
     for cmd in commands:
         print('+ {0}'.format(cmd))
@@ -42,7 +42,7 @@ def get_long_description():
 
 
 setup(
-    name='screenshot_manager',
+    name='screenshot-manager',
     version=version,
     packages=find_packages(),
     install_requires=[],
