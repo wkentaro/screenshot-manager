@@ -7,7 +7,6 @@ import datetime
 import os
 import os.path as osp
 import pkg_resources
-import platform
 import re
 import shutil
 import sys
@@ -78,9 +77,7 @@ def copyfile_safe(from_filename, to_filename, verbose=False):
 
 
 def main():
-    uname = platform.platform().split('-')[0]
-
-    config = default_config.get(uname, {})
+    config = default_config.get(os.uname().sysname, {})
 
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
