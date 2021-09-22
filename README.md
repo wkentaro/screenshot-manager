@@ -25,7 +25,7 @@ This software serves some solutions for this with a simple Python script and Cro
 First, you need to install the python script:
 
 ```
-pip install git+https://github.com/wkentaro/screenshot-manager.git
+pip install screenshot-manager
 ```
 
 Next, you run `crontab -e` to add the periodical job:
@@ -56,8 +56,3 @@ screenshot-manager --to-format '%Y-%m-%d-%H-%M-%S'
 
 If it is not supported, the screenshot will be just copied without renaming.  
 Please check output of `screenshot-manager --verbose` or `screenshot_manager/cli.py` to see the supported formats.
-
-
-## License
-
-See [LICENSE](LICENSE).
