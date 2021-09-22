@@ -1,6 +1,6 @@
 <h1 align="center">screenshot-manager</h1>
 
-<h4 align="center">Organize screenshot/screencast in different platforms.</h4>
+<h4 align="center">Organize screenshot/screencast in a uniform manner.</h4>
 
 <div align="center">
   <a href="https://pypi.python.org/pypi/screenshot-manager"><img src="https://img.shields.io/pypi/v/screenshot-manager.svg"></a>
