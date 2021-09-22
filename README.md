@@ -1,8 +1,16 @@
-# screenshot-manager
+<h1 align="center">screenshot-manager</h1>
 
-Rename and copy screenshot/screencast into a single folder to organize screenshots for different platforms and file types.
+<h4 align="center">Organize screenshot/screencast in different platforms.</h4>
 
-<img src=".readme/example.jpg" width="80%" />
+<div align="center">
+  <a href="https://pypi.python.org/pypi/screenshot-manager"><img src="https://img.shields.io/pypi/v/screenshot-manager.svg"></a>
+  <a href="https://pypi.org/project/screenshot-manager"><img src="https://img.shields.io/pypi/pyversions/screenshot-manager.svg"></a>
+  <a href="https://github.com/wkentaro/screenshot-manager/actions"><img src="https://github.com/wkentaro/screenshot-manager/workflows/ci/badge.svg"></a>
+</div>
+
+<div align="center">
+  <img src=".readme/example.jpg" width="80%" />
+</div>
 
 ## Why?
 
