@@ -77,7 +77,8 @@ def copyfile_safe(from_filename, to_filename, verbose=False):
 
 
 def main():
-    config = default_config.get(os.uname().sysname, {})
+    sysname = os.uname()[0]
+    config = default_config.get(sysname, {})
 
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
