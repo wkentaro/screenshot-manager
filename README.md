@@ -14,10 +14,10 @@
 
 ## Why?
 
-I usually take screenshot/screencast just for logging in daily basis. It is quite useful if we put them in a single folder or cloud service (ie. Google Drive)
+I usually take screenshot/screencast just for logging in daily basis. It is quite useful if we put them in a single folder or cloud service (e.g., Google Drive)
 to synchronize them among multiple devices and platforms. However, sometimes this is difficult because of the default saving location
-of screenshot (ie. `~/Desktop` on macOS) and difference of the name
-(ie. `Screenshot from %Y-%m-%d %H-%M-%S.png` on Ubuntu and `Screen Shot %Y-%m-%d at %H.%M.%S.png`, `Kapture %Y-%m-%d at %H.%M.%S.mp4` on macOS).
+of screenshot (e.g., `~/Desktop` on macOS) and difference of the name
+(e.g., `Screenshot from %Y-%m-%d %H-%M-%S.png` on Ubuntu and `Screen Shot %Y-%m-%d at %H.%M.%S.png`, `Kapture %Y-%m-%d at %H.%M.%S.mp4` on macOS).
 This software serves some solutions for this with a simple Python script and Cron job.
 
 ## How to use it?
